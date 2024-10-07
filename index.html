@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <fieldset class="boxBody">
+        <div><h1> Soluções Matemáticas</h1></div>
+        </fieldset>
+    </div>
+    <div class="boxBody">
+        <fieldset>
+            <div>
+            <h1>O que é a Formula de Bhaskara</h1>
+            <span class="bhaskaraExp">"A fórmula de Bhaskara é um método resolutivo para equações do segundo grau cujo nome homenageia o grande matemático indiano que a demonstrou. <br> Essa fórmula nada mais é do que um método para encontrar as raízes reais de uma equação do segundo grau fazendo uso apenas de seus coeficientes. <br>
+                Vale lembrar que coeficiente é o número que multiplica uma incógnita em uma equação. <br>
+                Em sua forma original, a fórmula de Bhaskara é dada pela seguinte expressão: <br>
+                <div>
+                <img src="https://s2.static.brasilescola.uol.com.br/img/2016/04/formula-de-bhaskara-em-sua-forma-original.jpg" alt="" class="img"> <br>
+                </div>
+                Para utilizar essa fórmula, é necessário lembrar que toda equação do segundo grau deve ser escrita da seguinte maneira: <br>
+                <div>
+                <img src="https://s3.static.brasilescola.uol.com.br/img/2016/04/equacao-do-segundo-grau.jpg" alt="img" class="img"><br>                                
+                </div>
+                <span class="subtitle">Equação reduzida ou normal do segundo grau</span><br>
+                Os coeficientes dessa equação são os números que ocupam o lugar de “a”, de “b” e de “c”. Portanto, o coeficiente “a” é o número que multiplica x2; o coeficiente “b” é o número que multiplica x; e o coeficiente “c” é o número que não multiplica incógnita."   
+            </span>
+            </div>
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset class="boxBody">
+            <div class="header">
+                <h1 class="header">Resolução de bhaskara</h1>
+            </div>
+
+            <div class="inputs">
+                <span>Letra a</span> <input type="number", id="NumeroA", class="input">
+                <span>Letra b</span> <input type="number", id="NumeroB", class="input"> 
+                <span>Letra c</span> <input type="number", id="NumeroC", class="input"> 
+                <button onclick="Resultado()", class="button">Enviar</button>
+            </div>
+
+            <div class="results">
+                <span, class="resultText">Resultado</span> 
+            </div>
+
+            <div class="boxResult">
+                <span>Positivo</span>
+                <fieldset class="box">
+                   <span id="boxResultPositive", class="resultText"></span>
+                </fieldset>
+                    <span>Negativo</span>
+                <fieldset class="box">
+                    <span id="boxResultNegative", class="resultText"></span>
+                </fieldset>
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>

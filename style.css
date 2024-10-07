@@ -1,0 +1,69 @@
+body {
+    background-color: gray;
+}
+
+.boxBody { 
+    text-align: center;  
+    background-color: white;
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+.bhaskaraExp {
+    font-size: 15px;
+    color: gray;
+    
+}
+.img {
+    width: 40%;
+    height: 40%;
+    margin: 4px;
+    border:  2px solid red;
+
+}
+.subtitle {
+    margin: 50px;
+}
+
+.header {
+    text-align: center;
+    color: yellowgreen;
+}
+
+.inputs {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    margin: 10px;
+    height: 20px;
+    width: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results {
+    text-align: center;
+    
+}
+.resultText {
+    font-size:  20px;
+}
+.boxResult {display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: inline;
+    margin: 20px;
+    height: 30px;
+    width: 30px;
+}
